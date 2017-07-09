@@ -1,0 +1,9 @@
+name = "Minilla-Test-DynamicPrereq"
+
+module_maker = "ModuleBuild"
+
+[build]
+build_class = "builder::MyBuilder"
+
+[Metadata]
+dynamic_config = 1
